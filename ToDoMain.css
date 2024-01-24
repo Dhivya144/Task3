@@ -1,0 +1,75 @@
+.Container {
+    height: 100vh;
+    border: 2px solid black;
+}
+.AddNewTaskContainer{
+    height: 15%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.LogoAndInputContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#AddTaskInput{
+    height: 55%;
+    width: 85%;
+    border-radius: 5px;
+}
+.AddNewTaskButtonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#AddNewTaskButton{
+    background-color: #12a5b7;
+    border: 1px solid #12a5b7;
+    border-radius: 5px;
+    color: #fff;
+    height: 30px;
+    width: 50%;
+}
+.ListingButtonContainer{
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ListingButtons{
+    background-color: #12a5b7;
+    border: 1px solid #12a5b7;
+    color: #fff;
+    height: 50%;
+    width: 30%;
+}
+.DynamicTodoBoxContainer{
+    padding: 20px;
+}
+.TodoValuesContainer{
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.DeleteButtonContainer{
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.DeleteButtons{
+    background-color: #e13046;
+    border: 1px solid #e13046;
+    border-radius: 5px;
+    color: #fff;
+    height: 50%;
+    width: 30%;
+}
